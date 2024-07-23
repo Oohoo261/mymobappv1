@@ -54,7 +54,7 @@ class _ImagePickerDemoState extends State<ImagePickerDemo> {
       });
       detectimage(file!);
     } catch (e) {
-      print('Error picking image: $e');
+      print('Error picking: $e');
     }
   }
 
